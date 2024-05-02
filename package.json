@@ -15,14 +15,14 @@
   "bugs": "https://github.com/ocavue/server-dom-shim/issues",
   "keywords": [],
   "sideEffects": false,
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./lib/server-dom-shim.browser.js",
+  "module": "./lib/server-dom-shim.browser.js",
+  "types": "./lib/server-dom-shim.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
+      "types": "./lib/server-dom-shim.d.ts",
+      "node": "./lib/server-dom-shim.node.js",
+      "import": "./lib/server-dom-shim.browser.js"
     }
   },
   "typesVersions": {
@@ -34,29 +34,22 @@
     }
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
     "lint": "eslint .",
     "fix": "eslint --fix . && prettier --write .",
-    "prepublishOnly": "nr build",
-    "start": "esno src/index.ts",
-    "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@lit-labs/ssr-dom-shim": "^1.2.0"
+  },
   "devDependencies": {
-    "@antfu/ni": "^0.21.12",
     "@ocavue/eslint-config": "^1.5.0",
     "@types/node": "^20.12.8",
     "eslint": "^8.57.0",
-    "esno": "^4.7.0",
     "prettier": "^3.2.5",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5",
-    "vite": "^4.5.3",
-    "vitest": "^1.5.3"
+    "typescript": "^5.4.5"
   },
   "renovate": {
     "extends": [

@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.15.8",
-  "description": "",
+  "description": "A simple shim for the server-side DOM API",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/ocavue",
@@ -13,7 +13,14 @@
     "url": "https://github.com/ocavue/server-dom-shim.git"
   },
   "bugs": "https://github.com/ocavue/server-dom-shim/issues",
-  "keywords": [],
+  "keywords": [
+    "ssr",
+    "html",
+    "custom-elements",
+    "web-components",
+    "node",
+    "browser"
+  ],
   "sideEffects": false,
   "main": "./lib/server-dom-shim.browser.js",
   "module": "./lib/server-dom-shim.browser.js",

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/ocavue/server-dom-shim/compare/v1.0.1...v1.0.2) (2024-05-02)
+
+
+### Bug Fixes
+
+* add vite build issue workaround ([fc44fad](https://github.com/ocavue/server-dom-shim/commit/fc44fad47e4382b46019a2e3b4e42ed7aef2fe89))
+
 ## [1.0.1](https://github.com/ocavue/server-dom-shim/compare/v1.0.0...v1.0.1) (2024-05-02)
 
 

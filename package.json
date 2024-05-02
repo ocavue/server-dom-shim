@@ -1,7 +1,7 @@
 {
   "name": "server-dom-shim",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packageManager": "pnpm@8.15.8",
   "description": "A simple shim for the server-side DOM API",
   "author": "ocavue <ocavue@gmail.com>",

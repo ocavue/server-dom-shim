@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ocavue/server-dom-shim/compare/v1.0.3...v1.1.0) (2025-12-25)
+
+
+### Features
+
+* export all DOM and CSS APIs ([3426c7c](https://github.com/ocavue/server-dom-shim/commit/3426c7c30b3ae6c6afd7e5ec8b1ab2c60e67828d))
+
 ## [1.0.3](https://github.com/ocavue/server-dom-shim/compare/v1.0.2...v1.0.3) (2025-12-25)
 
 

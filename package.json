@@ -2,7 +2,7 @@
   "name": "server-dom-shim",
   "type": "module",
   "version": "1.0.2",
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@10.26.2",
   "description": "A simple shim for the server-side DOM API",
   "author": "ocavue <ocavue@gmail.com>",
   "license": "MIT",
@@ -49,18 +49,14 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@lit-labs/ssr-dom-shim": "^1.2.0"
+    "@lit-labs/ssr-dom-shim": "^1.5.0"
   },
   "devDependencies": {
-    "@ocavue/eslint-config": "^1.5.0",
-    "@types/node": "^20.12.8",
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.5"
-  },
-  "renovate": {
-    "extends": [
-      "github>ocavue/config-renovate"
-    ]
+    "@ocavue/eslint-config": "^3.8.0",
+    "@ocavue/tsconfig": "^0.6.2",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.39.2",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
   }
 }

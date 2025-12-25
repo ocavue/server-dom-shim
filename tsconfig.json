@@ -1,17 +1,4 @@
 {
-  "compilerOptions": {
-    "target": "es2018",
-    "module": "esnext",
-    "lib": ["esnext", "DOM"],
-    "moduleResolution": "Bundler",
-    "esModuleInterop": true,
-    "noEmit": false,
-    "strict": true,
-    "strictNullChecks": true,
-    "verbatimModuleSyntax": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "skipDefaultLibCheck": true
-  }
+  "extends": "@ocavue/tsconfig/dom/root.json",
+  "include": ["lib/**/*.js", "lib/**/*.d.ts", "./*.js"]
 }

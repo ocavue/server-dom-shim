@@ -28,8 +28,5 @@ jobs:
 
       - uses: ./.github/actions/setup
 
-      - name: Build
-        run: pnpm run build
-
       - name: Publish to NPM
         run: pnpm publish

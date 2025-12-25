@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/ocavue/server-dom-shim/compare/v1.0.2...v1.0.3) (2025-12-25)
+
+
+### Bug Fixes
+
+* enable OIDC publishing ([63824cd](https://github.com/ocavue/server-dom-shim/commit/63824cdd761b6f8f4fbccbed4b2de0c59cf85af4))
+
 ## [1.0.2](https://github.com/ocavue/server-dom-shim/compare/v1.0.1...v1.0.2) (2024-05-02)
 
 

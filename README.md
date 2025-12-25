@@ -6,10 +6,18 @@ A simple shim for the server-side DOM API. No more `HTMLElement is not defined` 
 
 ```ts
 import {
-  CustomElementRegistry,
+  EventTarget,
   Element,
   HTMLElement,
+  CustomElementRegistry,
   customElements,
+  Event,
+  CustomEvent,
+  MediaList,
+  StyleSheet,
+  CSSRule,
+  CSSRuleList,
+  CSSStyleSheet,
 } from 'server-dom-shim'
 ```
 
